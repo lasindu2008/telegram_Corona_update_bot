@@ -65,17 +65,7 @@ def staa():
                     global_deaths + '\n' + 'සුවය ලැබූ සංඛ්‍යාව 😌 ➡️ ' +
                     global_recovered + '\n' + '\n' + '\n' +
                     '🗞සියලු තොරතුරු රජයේ සහ පිලිගත් මුලාශ්‍ර මගිනි 📰' + '\n' +
-                    '@Corona_SlRobot')
-    "reply_markup": {
-        "inline_keyboard": [
-            [
-                {
-                    "text": "➕ Add me to your Group 🦠",
-                    "url": "https://t.me/Corona_SlRobot?startgroup=new"
-                }
-            ]
-        ]
-    }
+                    '[Corona_SlRobot](https://t.me/Corona_SlRobot?startgroup=new)')
     return textt
 
 
