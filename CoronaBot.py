@@ -66,7 +66,9 @@ def staa():
                     global_recovered + '\n' + '\n' + '\n' +
                     '🗞සියලු තොරතුරු රජයේ සහ පිලිගත් මුලාශ්‍ර මගිනි 📰' + '\n' +
                     '@Corona_SlRobot')
-            "inline_keyboard": [
+    "parse_mode": "HTML",
+    "reply_markup": {
+        "inline_keyboard": [
             [
                 {
                     "text": "➕ Add me to your Group 🦠",
@@ -74,6 +76,7 @@ def staa():
                 }
             ]
         ]
+    }
     return textt
 
 
