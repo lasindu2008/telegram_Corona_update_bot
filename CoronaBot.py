@@ -1,10 +1,24 @@
 from telethon import TelegramClient, events
 import json
 import requests
-
-APP_ID=2192067 #my.telegram.org
-APP_HASH='d2e0ba99f1b9cdb632b43633edb76f11' #my.telegram.org
-BOTT='1689002354:AAFuYEPqZ_crEHPCCP7agFFI-clYikjSrus'#@botfather
+from Lyci import (
+    APP_ID,
+    APP_HASH,
+    BOTT,
+    LOGGER,
+    OWNER_ID,
+    PORT,
+    SUPPORT_CHAT,
+    TOKEN,
+    URL,
+    WEBHOOK,
+    StartTime,
+    dispatcher,
+    pbot,
+    telethn,
+    updater,
+    
+)
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
