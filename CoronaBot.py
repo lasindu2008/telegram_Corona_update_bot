@@ -1,7 +1,7 @@
 from telethon import TelegramClient, events
 import json
 import requests
-from sample_config import Config
+
 
 from Coronabot import (
     API_HASH,
