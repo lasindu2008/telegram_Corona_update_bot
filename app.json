@@ -8,7 +8,7 @@
          "Bot",
          "Sinhala"
       ],   
-   "repository": "https://github.com/only-music/telegram_Corona_update_bot",
+   "repository": "https://github.com/prabhasha-p/telegram_Corona_update_bot",
    "addons": [
       {
          "options": {
@@ -63,13 +63,7 @@
          "value": "https://<app name>.herokuapp.com/"
       },
    },
-   "keywords": [
-         "Telegram",
-         "Corona",
-         "Info",
-         "Bot",
-         "Sinhala"
-      ], 
+
    "name": "Corona",
    "repository": "https://github.com/Prabhasha-p/telegram_Corona_update_bot"
 }
