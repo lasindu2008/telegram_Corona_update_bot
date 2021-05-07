@@ -1,69 +1,43 @@
 {
-      "name": "Corona",
-      "description": "An Anime themed Telegram group management bot.",
-      "keywords": [
-         "Telegram",
-         "Corona",
-         "Info",
-         "Bot",
-         "Sinhala"
-      ],   
-   "repository": "https://github.com/prabhasha-p/telegram_Corona_update_bot",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-   "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    "name": "Song Downloader Bot",
+    "description": "A bot that can download song you want.",
+    "logo": "https://telegra.ph/file/1a53d43a6e6e29abc0f05.png",
+    "keywords": [
+        "Corona",
+        "Info",
+        "Telegram Bot",
+        "Sinhala"
+    ],
+    "website": "sltechcom.webnode.com",
+    "repository": "https://github.com/prabhasha-p/telegram_Corona_update_bot",
+    "success_url": "https://t.me/GalaxyLanka",
+    "env": {
+        "BOTT": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        }
     },
-    {
-      "url": "heroku/python"
-    }     
-  ],      
-   "env": {
-      "BOTT": {
-         "description": "Your bot token. Get one from @BotFather duh",
-         "required": true,
-         "value": ""
-      },
-      "API_ID": {
-         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
-         "required": true,
-         "value": ""
-      },
-      "API_HASH": {
-         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
-         "required": true,
-         "value": ""
-
-      },      
-      "OWNER_ID": {
-         "description": "Your user ID as an integer.",
-         "required": true,
-         "value": "1469528232"
-      },
-      "OWNER_USERNAME": {
-         "description": "Your username without the @",
-         "value": "Prabha_sha"
-      },
-      "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
-         "required": true,
-         "value": "GangOfMafiaTeam"
- 
-      },
-      "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
-         "value": "https://<app name>.herokuapp.com/"
-      },
-   },
-
-   "name": "Corona",
-   "repository": "https://github.com/Prabhasha-p/telegram_Corona_update_bot"
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
