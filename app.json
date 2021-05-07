@@ -2,11 +2,11 @@
       "name": "Corona",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
-         "telegram",
-         "anime",
-         "group",
-         "manager",
-         "Hexzy"
+         "Telegram",
+         "Corona",
+         "Info",
+         "Bot",
+         "Sinhala"
       ],   
    "repository": "https://github.com/only-music/telegram_Corona_update_bot",
    "addons": [
@@ -64,12 +64,12 @@
       },
    },
    "keywords": [
-      "telegram",
-      "anime",
-      "group",
-      "manager",
-      "Hexzy"
-   ],
+         "Telegram",
+         "Corona",
+         "Info",
+         "Bot",
+         "Sinhala"
+      ], 
    "name": "Corona",
-   "repository": "https://github.com/only-music/telegram_Corona_update_bot"
+   "repository": "https://github.com/Prabhasha-p/telegram_Corona_update_bot"
 }
