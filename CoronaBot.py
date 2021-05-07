@@ -1,6 +1,7 @@
 from telethon import TelegramClient, events
 import json
 import requests
+from sample_config import Config
 
 APP_ID=2192067 #my.telegram.org
 APP_HASH='d2e0ba99f1b9cdb632b43633edb76f11' #my.telegram.org
