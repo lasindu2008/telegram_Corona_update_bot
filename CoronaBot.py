@@ -3,9 +3,12 @@ import json
 import requests
 from sample_config import Config
 
-APP_ID=2192067 #my.telegram.org
-APP_HASH='d2e0ba99f1b9cdb632b43633edb76f11' #my.telegram.org
-BOTT='1689002354:AAFuYEPqZ_crEHPCCP7agFFI-clYikjSrus'#@botfather
+CoronaBot = Client(
+   "Song Downloader",
+   APP_ID=Config.APP_ID,
+   API_HASH=Config.API_HASH,
+   BOT=Config.BOTT,
+)
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
