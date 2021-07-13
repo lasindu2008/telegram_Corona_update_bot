@@ -6,7 +6,7 @@ Simply Replace the Token,APP_ID,APP_HASH and run(get token from @botfather other
 
 you can also use on supergroup chats and private chats.
 
-If you are using this please put credits to  [@Prabha_sha](https://t.me/Prabha_sha)
+If you are using this please put credits to  [Lasindu](https://t.me/lstech)
 
 
 ## How to setup on Heroku 
